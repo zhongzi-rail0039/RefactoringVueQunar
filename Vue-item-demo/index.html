@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="vue.js"></script>
+</head>
+<body>
+<div id="app">
+    {{ message }}
+</div>
+
+<script>
+    /**
+     * 挂载dom
+     * @type {Vue}
+     */
+    // var demo = document.getElementById('app');
+    // demo.innerHTML = 'Hello Vue ~~~';
+
+    /*延迟几秒*/
+
+    // setTimeout(function () {
+    //     demo.innerHTML = 'Hello Vue 123 ~~~';
+    // }, 2000)
+
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue !!!'
+        }
+    })
+
+    setTimeout(function () {
+        app.$data.message = 'world Vue ~'
+    }, 3000)
+</script>
+</body>
+</html>
