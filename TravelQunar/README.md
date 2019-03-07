@@ -2,7 +2,13 @@
 
 > A Vue.js project
 
-## Build Setup
+### 1px 解決方案
+
+
+### 解決移动端 300 毫秒延迟
+
+`1`
+
 
 ``` bash
 # install dependencies
