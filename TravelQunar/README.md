@@ -11,11 +11,16 @@
 
 #### [图标制作](https://www.iconfont.cn/)
 
+#### 轮播图插件
+
+- 注意版本2.6.7 [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper/tree/v3.1.3)
+
+
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8090
 npm run dev
 
 # build for production with minification
