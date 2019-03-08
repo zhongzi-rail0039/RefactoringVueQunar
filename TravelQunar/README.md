@@ -2,13 +2,14 @@
 
 > A Vue.js project
 
-### 1px 解決方案
+#### 1px 解決方案
 
 
-### 解決移动端 300 毫秒延迟
+#### 解決移动端 300 毫秒延迟
 
 `fastclick` 插件
 
+#### [图标制作](https://www.iconfont.cn/)
 
 ``` bash
 # install dependencies
